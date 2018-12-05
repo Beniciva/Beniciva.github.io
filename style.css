@@ -16,6 +16,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .nav-item:hover{
+  li a:hover{
+    background-color: #808080
+  }
+  li a.active{
     background-color: #005b96
   }
+ 
