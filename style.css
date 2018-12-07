@@ -25,3 +25,7 @@
  button{
    background-color: #005b96
  }
+ .jumbotron{
+    background-image: url("resources/background.png");
+    color:white;
+ }
