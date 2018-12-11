@@ -19,16 +19,16 @@
         </a>
         <div  id="navOptions" class="collapse navbar-collapse">
             <ul class='navbar-nav'>
-                <li class='nav-item'>
+                <li class='nav-item navHome' >
                     <a class='nav-link' href="#home">Home</a>
                 </li>
-                <li class='nav-item'>
+                <li class='nav-item navPort'>
                     <a class='nav-link' href="#portfolio">Portfolio</a>
                 </li>
-                <li class='nav-item'>
+                <li class='nav-item navAbout'>
                     <a class='nav-link' href="#about">About</a>
                 </li>
-                <li class='nav-item'>
+                <li class='nav-item navContact'>
                     <a class='nav-link' href="#contact">Contact me</a>
                 </li>
             </ul> 
@@ -40,28 +40,36 @@
               <p>Insert about me</p>
             </div>
             <div class="container float:right">
-                <img src="" alt="My picture"
+                <img src="" alt="My picture">
             </div>
         </div>
     </section>
     <div class="container-fluid bg-3 text-center">    
         <h3>Some of my Work</h3><br>
         <div class="row">
-          <div class="col-sm-3">
-            <p></p>
-            <img src="resources\Capture.PNG"  style="width:100%" alt="Best Projects">
+          <div class="col-sm-4">
+            <a href="#des1" data-toggle='collapse'>
+                <img class="img-thumbnail img-fluid moviePic" src="resources\Capture.PNG"  style="width:100%" alt="Best Projects">
+            </a>
           </div>
-          <div class="col-sm-3"> 
-            <p></p>
-            <img src="resources/"  style="width:100%" alt="Image">
+            <div id="des1" class="collapse">
+                <p>This is a project I did on my own. This was used with CSS and HTML. </p>
+            </div>
+          <div class="col-sm-4"> 
+            <a href="#des2" data-toggle='collapse'>
+                <img class="img-thumbnail img-fluid moviePic" src="resources/quidditch.PNG"  style="width:100%" alt="Image">
+            </a>
+            <div id="des2" class="collapse">
+                <p>This project I just did just the bootstrap on. </p>
+            </div>
           </div>
-          <div class="col-sm-3"> 
-            <p></p>
-            <img src="resources/"  style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-3">
-            <p></p>
-            <img src="resources/"  style="width:100%" alt="Image">
+          <div class="col-sm-4"> 
+            <a href="#des3" data-toggle='collapse'>
+                 <img  class="img-thumbnail img-fluid moviePic"src="resources/starwars.PNG"  style="width:100%" alt="Image">
+            </a>
+           <div id="des3" class="collapse">
+               <p>dfasdf</p>
+           </div>
           </div>
         </div>
       </div>

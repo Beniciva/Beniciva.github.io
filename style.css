@@ -16,16 +16,23 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  li a:hover{
-    background-color: #808080
-  }
-  li a.active{
-    background-color: #005b96
-  }
+
  button{
    background-color: #005b96
  }
  .jumbotron{
     background-image: url("resources/background.png");
     color:white;
+ }
+ .moviePic{
+  opacity: .7;
+ }
+ .moviePic:hover{
+   opacity: 1.0;
+ }
+ .navchoices a:hover{
+background-color: #808080
+ }
+ .navchoices a:active{
+   background-color: #005b96
  }
