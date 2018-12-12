@@ -14,15 +14,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
   }
 
  button{
    background-color: #005b96
  }
- .jumbotron{
+ body{
     background-image: url("resources/background.png");
-    color:white;
+    color: white;
  }
  .moviePic{
   opacity: .7;
@@ -35,4 +35,11 @@ background-color: #808080
  }
  .navchoices a:active{
    background-color: #005b96
+ }
+ .myWork{
+   background-color: #808080;
+   padding: 20px 0px 25px 0px;
+ }
+ .title{
+   text-align: left
  }
