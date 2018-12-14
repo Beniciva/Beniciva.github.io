@@ -13,7 +13,7 @@
     <title>My Online Portfolio</title>
 </head>
 <body>
-    <nav class='navbar navbar-expand-md bg-dark navbar-dark'>
+    <nav class='navbar navbar-expand-md bg-dark navbar-dark sticky'>
         <a class="navbar-brand" href="#">
             <h2>Ivan Benić</h2>
         </a>
@@ -36,18 +36,20 @@
     <section>
         <div class="jumbotron">
             <div class="container float:left">
-              <h1>My Portfolio</h1>      
-              <p>Insert about me</p>
+              <h1 class='intro'>Welcome to my Portfolio
+                   <p>....</p>
+              </h1>      
+             
             </div>
-            <div class="container float:right">
-                <img src="" alt="My picture">  
+            <div class="container myPicture">
+                <img src="resources/me.JPG" alt="My picture" style="width:25%">  
             </div>
         </div>
     </section>
-    <div class="container-fluid bg-3 text-center myWork">    
+    <div class="container-fluid bg-3 text-center jumbotron">    
         <h3 class="title">Some of my Work</h3><hr style="color:white">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6" >
                 <a href="#des1" data-toggle='collapse'>
                     <img class="img-thumbnail img-fluid moviePic" src="resources\Capture.PNG"  style="width:100%" alt="Best Projects">
                 </a>
@@ -69,14 +71,19 @@
         </div>
       </div>
       
-    <section>
-        <h2> About Me </h2>
+    <section class="jumbotron" >
+        <<h2> About Me </h2>
         <p>My name is Ivan Benic. I have been taking Computer Science classes for 2 years. And so far, I only know HTML, CSS, jquery, and bootstrap. I have currently go to Warren Central High School and I plan on attenting IUPUI or Purdue and pursue a degree in Computer Engineering. </p>
     </section>
     <section>
-        <h2>Contact Me</h2>
-        <button type="button" class="showE">Click to show Email</button>
-        <h3 class="email">Email:beniciva000@warren.k12.in.us</h3>
+        <h2 class="jumbotron">
+                <button type="button" class="showE">Contact Me</button>
+            <h3 class="email">Email:beniciva000@warren.k12.in.us</h3>
+        </h2>
+       
     </section>
+    <footer>
+
+    </footer>
 </body>
 </html>

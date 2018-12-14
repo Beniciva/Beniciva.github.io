@@ -43,3 +43,17 @@ background-color: #808080
  .title{
    text-align: left
  }
+ .sticky{
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+.intro{
+  float: right;
+}
+.about{
+  background-color:white;
+}
+.button{
+  background-color: #808080;
+}
