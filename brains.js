@@ -3,7 +3,10 @@ $(document).ready(function () {
     $('.showE').click(function () {
         $('.email').fadeIn();
     })
-    // $('.navchoices').click(function (){
-    //     $('.navHome').css('background-color', '#');
-    // })
+    $(".hP").mouseenter(function (){
+        $(".des").append("This is a project I did on my own. It was meant to be my favorite thing. <br>I chose the harry potter movie collection as my favorite thing. This was made out of just HTML and CSS")
+    })
+    $(".quid").mouseenter(function (){
+        $(".des1").append("This was a project I did to learn how to use bootstrap. My teacher made the html skeleton, and I did all of the bootstrap.")
+    })
 })
